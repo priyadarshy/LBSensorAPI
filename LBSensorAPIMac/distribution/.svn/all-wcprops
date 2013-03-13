@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/ilumo/!svn/ver/1395/LBSensorAPI/LBSensorAPIMac/distribution
+END
+ZODeviceBLE.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/ilumo/!svn/ver/1386/LBSensorAPI/LBSensorAPIMac/distribution/ZODeviceBLE.h
+END
+LBdefines.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/ilumo/!svn/ver/1385/LBSensorAPI/LBSensorAPIMac/distribution/LBdefines.h
+END
+LBUtil.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/ilumo/!svn/ver/1385/LBSensorAPI/LBSensorAPIMac/distribution/LBUtil.h
+END
+ZOObservable.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/ilumo/!svn/ver/1385/LBSensorAPI/LBSensorAPIMac/distribution/ZOObservable.h
+END
+ZODeviceShared.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/ilumo/!svn/ver/1385/LBSensorAPI/LBSensorAPIMac/distribution/ZODeviceShared.h
+END
+ZODeviceMonitorBLE.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/ilumo/!svn/ver/1386/LBSensorAPI/LBSensorAPIMac/distribution/ZODeviceMonitorBLE.h
+END
+ZOExecutor.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/ilumo/!svn/ver/1385/LBSensorAPI/LBSensorAPIMac/distribution/ZOExecutor.h
+END
+ZODeviceMonitorShared.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/ilumo/!svn/ver/1385/LBSensorAPI/LBSensorAPIMac/distribution/ZODeviceMonitorShared.h
+END
+ZODevice.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/ilumo/!svn/ver/1385/LBSensorAPI/LBSensorAPIMac/distribution/ZODevice.h
+END
+ZODiagnosticCatalog.txt
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/ilumo/!svn/ver/1385/LBSensorAPI/LBSensorAPIMac/distribution/ZODiagnosticCatalog.txt
+END
+ZODeviceMonitor.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/ilumo/!svn/ver/1385/LBSensorAPI/LBSensorAPIMac/distribution/ZODeviceMonitor.h
+END
+LBSensorAPI.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/ilumo/!svn/ver/1386/LBSensorAPI/LBSensorAPIMac/distribution/LBSensorAPI.h
+END
+libLBSensorAPIMac.a
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/ilumo/!svn/ver/1395/LBSensorAPI/LBSensorAPIMac/distribution/libLBSensorAPIMac.a
+END
+PSYBlockTimer.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/ilumo/!svn/ver/1385/LBSensorAPI/LBSensorAPIMac/distribution/PSYBlockTimer.h
+END
+ZODiagnosticCatalog.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/ilumo/!svn/ver/1385/LBSensorAPI/LBSensorAPIMac/distribution/ZODiagnosticCatalog.h
+END

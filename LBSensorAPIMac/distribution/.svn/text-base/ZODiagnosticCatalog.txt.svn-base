@@ -1,0 +1,83 @@
+#define DIAGNOSTICS_MAIN_RUN 0x0101
+#define DIAGNOSTICS_ASSERTION_FAILURE 0x0102
+#define DIAGNOSTICS_RESET 0x0103
+#define DIAGNOSTICS_HARD_FAULT 0x0104
+#define DIAGNOSTICS_STACK_FAULT 0x0105
+#define DIAGNOSTICS_MINT 0x0106
+#define DIAGNOSTICS_RESTART 0x0107
+#define DIAGNOSTICS_STACK_OVERRUN 0x0108
+#define DIAGNOSTICS_MAIN_MODE 0x0109
+#define DIAGNOSTICS_EVENT_HANDLING 0x0202
+#define DIAGNOSTICS_RADIO_REBOOT 0x0301
+#define DIAGNOSTICS_RADIO_AUTH_FAILED 0x0302
+#define DIAGNOSTICS_RADIO_AUTHENTICATED 0x0303
+#define DIAGNOSTICS_RADIO_AUTH_CHIP_FAIL 0x0304
+#define DIAGNOSTICS_RADIO_CONNECT 0x0305
+#define DIAGNOSTICS_RADIO_DISCONNECT 0x0306
+#define DIAGNOSTICS_RADIO_NEW_PAIRING 0x0307
+#define DIAGNOSTICS_RADIO_SESSION_CLOSE 0x0308
+#define DIAGNOSTICS_RADIO_SESSION_OPEN 0x0309
+#define DIAGNOSTICS_RADIO_ERRORS 0x030a
+#define DIAGNOSTICS_RADIO_LIBACI_ERROR 0x030b
+#define DIAGNOSTICS_RADIO_INACTIVE 0x030c
+#define DIAGNOSTICS_RTC_SET_TIME 0x0401
+#define DIAGNOSTICS_MOTOR_ON 0x0501
+#define DIAGNOSTICS_MOTOR_OFF 0x0502
+#define DIAGNOSTICS_MOTOR_SET_QUIET 0x0503
+#define DIAGNOSTICS_MOTOR_WAKE_TIME 0x0504
+#define DIAGNOSTICS_BATTERY_STATE 0x0602
+#define DIAGNOSTICS_UPDATE_COMMIT 0x0701
+#define DIAGNOSTICS_UPDATE_VERSION_MISMATCH 0x0702
+#define DIAGNOSTICS_UPDATE_SHA_MISMATCH 0x0703
+#define DIAGNOSTICS_UPDATE_COMMIT_SHA_MISMATCH 0x0704
+#define DIAGNOSTICS_PLUGIN_START 0x0801
+#define DIAGNOSTICS_PLUGIN_STOP 0x0802
+#define DIAGNOSTICS_PLUGIN_INACTIVE 0x0803
+#define DIAGNOSTICS_PLUGIN_PANIC 0x0804
+#define DIAGNOSTICS_TOUCH_INACTIVE 0x0901
+#define DIAGNOSTICS_TOUCH_BUTTON_ON 0x0902
+#define DIAGNOSTICS_TOUCH_BUTTON_OFF 0x0903
+#define DIAGNOSTICS_TOUCH_WEAR_ON 0x0904
+#define DIAGNOSTICS_TOUCH_WEAR_OFF 0x0905
+#define DIAGNOSTICS_TOUCH_ERROR 0x0906
+src/base/assertion.c:        diagnostics_add(DIAGNOSTICS_ASSERTION_FAILURE, "s0,u2,s0", file, line, expression);
+src/base/battery.c:    diagnostics_add(DIAGNOSTICS_BATTERY_STATE, "f2,b,b,f2,f2,f8", battery_voltage, has_usb_power, is_charging, charge_current, system_current, battery_charge);
+src/base/event.c:    diagnostics_add(DIAGNOSTICS_STACK_OVERRUN, "s0,u2,u4", file, line, used);
+src/base/event.c:    diagnostics_add(DIAGNOSTICS_STACK_OVERRUN, "s0,u2,u4", file, line, used);
+src/base/event.c:    diagnostics_add(DIAGNOSTICS_STACK_OVERRUN, "s0,u2,u4", file, line, used);
+src/base/event.c:        diagnostics_add(DIAGNOSTICS_EVENT_HANDLING, "m", benchmark);
+src/base/main.c:    diagnostics_add(DIAGNOSTICS_HARD_FAULT, "u4,u4,u4,u4,u4,u4,u4,u4,u4,u4", LR, PC, PSR, BFAR, CFSR, HFSR, DFSR, MMAR, AFSR, SHCSR);
+src/base/main.c:    diagnostics_add(DIAGNOSTICS_MAIN_MODE, "u1", mode);
+src/base/main.c:    diagnostics_add(DIAGNOSTICS_MINT, "");
+src/base/main.c:    diagnostics_add(DIAGNOSTICS_RESTART, "");
+src/base/main.c:    diagnostics_add(DIAGNOSTICS_RESET, "u2", reset_cause);
+src/base/main.c:    diagnostics_add(DIAGNOSTICS_MAIN_RUN, "");
+src/base/motor.c:    diagnostics_add(DIAGNOSTICS_MOTOR_ON, "d6,u1", &duration, level);
+src/base/motor.c:    diagnostics_add(DIAGNOSTICS_MOTOR_OFF, "");
+src/base/motor.c:    diagnostics_add(DIAGNOSTICS_MOTOR_SET_QUIET, "b", quiet);
+src/base/plugin_container.c:    diagnostics_add(DIAGNOSTICS_PLUGIN_INACTIVE, "u1", plugin_inactive);
+src/base/plugin_container.c:    diagnostics_add(DIAGNOSTICS_PLUGIN_PANIC, "u4", reason);
+src/base/plugin_container.c:    diagnostics_add(DIAGNOSTICS_PLUGIN_START, "");
+src/base/plugin_container.c:        diagnostics_add(DIAGNOSTICS_PLUGIN_START, "");
+src/base/plugin_container.c:    diagnostics_add(DIAGNOSTICS_PLUGIN_STOP, "");
+src/base/radio.c:    diagnostics_add(DIAGNOSTICS_RADIO_INACTIVE, "u1", radio_inactive);
+src/base/radio.c://    diagnostics_add(DIAGNOSTICS_RADIO_LIBACI_ERROR, "");
+src/base/radio.c:    diagnostics_add(DIAGNOSTICS_RADIO_DISCONNECT, "");
+src/base/radio.c:    diagnostics_add(DIAGNOSTICS_RADIO_CONNECT, "");
+src/base/rtc.c:    diagnostics_add(DIAGNOSTICS_RTC_SET_TIME, "t6", &time);
+src/base/touch.c:        diagnostics_add(DIAGNOSTICS_TOUCH_ERROR, "u1,u1", function, status);
+src/base/touch.c:        diagnostics_add(DIAGNOSTICS_TOUCH_ERROR, "u1,u1", function, status);
+src/base/touch.c:    diagnostics_add(DIAGNOSTICS_TOUCH_ERROR, "u1,u1", function, status);
+src/base/touch.c:    diagnostics_add(DIAGNOSTICS_TOUCH_ERROR, "u1,u1", function, status);
+src/base/touch.c:    diagnostics_add(DIAGNOSTICS_TOUCH_INACTIVE, "u1", touch_inactive);
+src/base/touch.c:        diagnostics_add(DIAGNOSTICS_TOUCH_ERROR, "u1,u1", function, status);
+src/base/touch.c:        diagnostics_add(DIAGNOSTICS_TOUCH_WEAR_ON, "");
+src/base/touch.c:        diagnostics_add(DIAGNOSTICS_TOUCH_WEAR_OFF, "");
+src/base/touch.c:        diagnostics_add(DIAGNOSTICS_TOUCH_BUTTON_ON, "");
+src/base/touch.c:        diagnostics_add(DIAGNOSTICS_TOUCH_BUTTON_OFF, "");
+src/base/update.c:        diagnostics_add(DIAGNOSTICS_UPDATE_VERSION_MISMATCH, "u1", type);
+src/base/update.c:        diagnostics_add(DIAGNOSTICS_UPDATE_SHA_MISMATCH, "u1", type);
+src/base/update.c:            diagnostics_add(DIAGNOSTICS_UPDATE_COMMIT_SHA_MISMATCH, "u1", type);
+src/base/update.c:            diagnostics_add(DIAGNOSTICS_UPDATE_COMMIT_SHA_MISMATCH, "u1", type);
+src/base/update.c:        diagnostics_add(DIAGNOSTICS_UPDATE_COMMIT, "u1,u4", type, revision);
+src/base/update.c:        diagnostics_add(DIAGNOSTICS_UPDATE_COMMIT, "u1,u4", type, revision);

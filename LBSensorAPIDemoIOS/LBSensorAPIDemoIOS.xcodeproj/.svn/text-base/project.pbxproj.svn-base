@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC10CAD516D5B24200B74D2E /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC10CAD416D5B24200B74D2E /* CoreBluetooth.framework */; };
+		AC32C21616DAE1E3002585E6 /* UIBAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = AC32C21516DAE1E3002585E6 /* UIBAlertView.m */; };
+		ACC5F3B816E7E32E00983C7B /* libLBSensorAPIIOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ACC5F3AA16E7E32E00983C7B /* libLBSensorAPIIOS.a */; };
+		ACC5F3B916E7E32E00983C7B /* ZODiagnosticCatalog.txt in Resources */ = {isa = PBXBuildFile; fileRef = ACC5F3B516E7E32E00983C7B /* ZODiagnosticCatalog.txt */; };
+		ACFA470616B0A9AF007F38D4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACFA470516B0A9AF007F38D4 /* UIKit.framework */; };
+		ACFA470816B0A9AF007F38D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACFA470716B0A9AF007F38D4 /* Foundation.framework */; };
+		ACFA470A16B0A9AF007F38D4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACFA470916B0A9AF007F38D4 /* CoreGraphics.framework */; };
+		ACFA471016B0A9AF007F38D4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ACFA470E16B0A9AF007F38D4 /* InfoPlist.strings */; };
+		ACFA471216B0A9AF007F38D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFA471116B0A9AF007F38D4 /* main.m */; };
+		ACFA471616B0A9AF007F38D4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFA471516B0A9AF007F38D4 /* AppDelegate.m */; };
+		ACFA471816B0A9AF007F38D4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = ACFA471716B0A9AF007F38D4 /* Default.png */; };
+		ACFA471A16B0A9AF007F38D4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ACFA471916B0A9AF007F38D4 /* Default@2x.png */; };
+		ACFA471C16B0A9AF007F38D4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ACFA471B16B0A9AF007F38D4 /* Default-568h@2x.png */; };
+		ACFA471F16B0A9AF007F38D4 /* SensorsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFA471E16B0A9AF007F38D4 /* SensorsViewController.m */; };
+		ACFA472116B0A9AF007F38D4 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = ACFA472016B0A9AF007F38D4 /* first.png */; };
+		ACFA472316B0A9AF007F38D4 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ACFA472216B0A9AF007F38D4 /* first@2x.png */; };
+		ACFA472616B0A9AF007F38D4 /* MessagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFA472516B0A9AF007F38D4 /* MessagesViewController.m */; };
+		ACFA472816B0A9AF007F38D4 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = ACFA472716B0A9AF007F38D4 /* second.png */; };
+		ACFA472A16B0A9AF007F38D4 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ACFA472916B0A9AF007F38D4 /* second@2x.png */; };
+		ACFA472D16B0A9AF007F38D4 /* SensorsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACFA472B16B0A9AF007F38D4 /* SensorsViewController.xib */; };
+		ACFA473016B0A9AF007F38D4 /* MessagesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACFA472E16B0A9AF007F38D4 /* MessagesViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AC10CAD416D5B24200B74D2E /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		AC32C21416DAE1E3002585E6 /* UIBAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIBAlertView.h; sourceTree = "<group>"; };
+		AC32C21516DAE1E3002585E6 /* UIBAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIBAlertView.m; sourceTree = "<group>"; };
+		ACC5F3A616E7E32E00983C7B /* LBdefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LBdefines.h; path = ../../LBSensorAPIIOS/distribution/LBdefines.h; sourceTree = "<group>"; };
+		ACC5F3A716E7E32E00983C7B /* LBSensorAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LBSensorAPI.h; path = ../../LBSensorAPIIOS/distribution/LBSensorAPI.h; sourceTree = "<group>"; };
+		ACC5F3A916E7E32E00983C7B /* LBUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LBUtil.h; path = ../../LBSensorAPIIOS/distribution/LBUtil.h; sourceTree = "<group>"; };
+		ACC5F3AA16E7E32E00983C7B /* libLBSensorAPIIOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libLBSensorAPIIOS.a; path = ../../LBSensorAPIIOS/distribution/libLBSensorAPIIOS.a; sourceTree = "<group>"; };
+		ACC5F3AB16E7E32E00983C7B /* PSYBlockTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PSYBlockTimer.h; path = ../../LBSensorAPIIOS/distribution/PSYBlockTimer.h; sourceTree = "<group>"; };
+		ACC5F3AC16E7E32E00983C7B /* ZODevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZODevice.h; path = ../../LBSensorAPIIOS/distribution/ZODevice.h; sourceTree = "<group>"; };
+		ACC5F3AD16E7E32E00983C7B /* ZODeviceBLE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZODeviceBLE.h; path = ../../LBSensorAPIIOS/distribution/ZODeviceBLE.h; sourceTree = "<group>"; };
+		ACC5F3AE16E7E32E00983C7B /* ZODeviceMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZODeviceMonitor.h; path = ../../LBSensorAPIIOS/distribution/ZODeviceMonitor.h; sourceTree = "<group>"; };
+		ACC5F3AF16E7E32E00983C7B /* ZODeviceMonitorBLE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZODeviceMonitorBLE.h; path = ../../LBSensorAPIIOS/distribution/ZODeviceMonitorBLE.h; sourceTree = "<group>"; };
+		ACC5F3B016E7E32E00983C7B /* ZODeviceMonitorShared.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZODeviceMonitorShared.h; path = ../../LBSensorAPIIOS/distribution/ZODeviceMonitorShared.h; sourceTree = "<group>"; };
+		ACC5F3B316E7E32E00983C7B /* ZODeviceShared.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZODeviceShared.h; path = ../../LBSensorAPIIOS/distribution/ZODeviceShared.h; sourceTree = "<group>"; };
+		ACC5F3B416E7E32E00983C7B /* ZODiagnosticCatalog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZODiagnosticCatalog.h; path = ../../LBSensorAPIIOS/distribution/ZODiagnosticCatalog.h; sourceTree = "<group>"; };
+		ACC5F3B516E7E32E00983C7B /* ZODiagnosticCatalog.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ZODiagnosticCatalog.txt; path = ../../LBSensorAPIIOS/distribution/ZODiagnosticCatalog.txt; sourceTree = "<group>"; };
+		ACC5F3B616E7E32E00983C7B /* ZOExecutor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZOExecutor.h; path = ../../LBSensorAPIIOS/distribution/ZOExecutor.h; sourceTree = "<group>"; };
+		ACC5F3B716E7E32E00983C7B /* ZOObservable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZOObservable.h; path = ../../LBSensorAPIIOS/distribution/ZOObservable.h; sourceTree = "<group>"; };
+		ACFA470116B0A9AF007F38D4 /* LBSensorAPIDemoIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LBSensorAPIDemoIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACFA470516B0A9AF007F38D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ACFA470716B0A9AF007F38D4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ACFA470916B0A9AF007F38D4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ACFA470D16B0A9AF007F38D4 /* LBSensorAPIDemoIOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LBSensorAPIDemoIOS-Info.plist"; sourceTree = "<group>"; };
+		ACFA470F16B0A9AF007F38D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ACFA471116B0A9AF007F38D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ACFA471316B0A9AF007F38D4 /* LBSensorAPIDemoIOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LBSensorAPIDemoIOS-Prefix.pch"; sourceTree = "<group>"; };
+		ACFA471416B0A9AF007F38D4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ACFA471516B0A9AF007F38D4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ACFA471716B0A9AF007F38D4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		ACFA471916B0A9AF007F38D4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		ACFA471B16B0A9AF007F38D4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		ACFA471D16B0A9AF007F38D4 /* SensorsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SensorsViewController.h; sourceTree = "<group>"; };
+		ACFA471E16B0A9AF007F38D4 /* SensorsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SensorsViewController.m; sourceTree = "<group>"; };
+		ACFA472016B0A9AF007F38D4 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		ACFA472216B0A9AF007F38D4 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		ACFA472416B0A9AF007F38D4 /* MessagesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessagesViewController.h; sourceTree = "<group>"; };
+		ACFA472516B0A9AF007F38D4 /* MessagesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessagesViewController.m; sourceTree = "<group>"; };
+		ACFA472716B0A9AF007F38D4 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		ACFA472916B0A9AF007F38D4 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		ACFA472C16B0A9AF007F38D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SensorsViewController.xib; sourceTree = "<group>"; };
+		ACFA472F16B0A9AF007F38D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MessagesViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACFA46FE16B0A9AF007F38D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC10CAD516D5B24200B74D2E /* CoreBluetooth.framework in Frameworks */,
+				ACFA470616B0A9AF007F38D4 /* UIKit.framework in Frameworks */,
+				ACFA470816B0A9AF007F38D4 /* Foundation.framework in Frameworks */,
+				ACFA470A16B0A9AF007F38D4 /* CoreGraphics.framework in Frameworks */,
+				ACC5F3B816E7E32E00983C7B /* libLBSensorAPIIOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC10CAC516D55A2800B74D2E /* LBSensorAPI */ = {
+			isa = PBXGroup;
+			children = (
+				ACC5F3A616E7E32E00983C7B /* LBdefines.h */,
+				ACC5F3A716E7E32E00983C7B /* LBSensorAPI.h */,
+				ACC5F3A916E7E32E00983C7B /* LBUtil.h */,
+				ACC5F3AA16E7E32E00983C7B /* libLBSensorAPIIOS.a */,
+				ACC5F3AB16E7E32E00983C7B /* PSYBlockTimer.h */,
+				ACC5F3AC16E7E32E00983C7B /* ZODevice.h */,
+				ACC5F3AD16E7E32E00983C7B /* ZODeviceBLE.h */,
+				ACC5F3AE16E7E32E00983C7B /* ZODeviceMonitor.h */,
+				ACC5F3AF16E7E32E00983C7B /* ZODeviceMonitorBLE.h */,
+				ACC5F3B016E7E32E00983C7B /* ZODeviceMonitorShared.h */,
+				ACC5F3B316E7E32E00983C7B /* ZODeviceShared.h */,
+				ACC5F3B416E7E32E00983C7B /* ZODiagnosticCatalog.h */,
+				ACC5F3B516E7E32E00983C7B /* ZODiagnosticCatalog.txt */,
+				ACC5F3B616E7E32E00983C7B /* ZOExecutor.h */,
+				ACC5F3B716E7E32E00983C7B /* ZOObservable.h */,
+			);
+			name = LBSensorAPI;
+			sourceTree = "<group>";
+		};
+		AC6FB17816B0C8E700925D68 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				ACFA471D16B0A9AF007F38D4 /* SensorsViewController.h */,
+				ACFA471E16B0A9AF007F38D4 /* SensorsViewController.m */,
+				ACFA472416B0A9AF007F38D4 /* MessagesViewController.h */,
+				ACFA472516B0A9AF007F38D4 /* MessagesViewController.m */,
+				ACFA472B16B0A9AF007F38D4 /* SensorsViewController.xib */,
+				ACFA472E16B0A9AF007F38D4 /* MessagesViewController.xib */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		AC6FB17A16B0C8FC00925D68 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				ACFA472016B0A9AF007F38D4 /* first.png */,
+				ACFA472216B0A9AF007F38D4 /* first@2x.png */,
+				ACFA472716B0A9AF007F38D4 /* second.png */,
+				ACFA472916B0A9AF007F38D4 /* second@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		AC6FB1B416B3268E00925D68 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				AC32C21416DAE1E3002585E6 /* UIBAlertView.h */,
+				AC32C21516DAE1E3002585E6 /* UIBAlertView.m */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		ACFA46F616B0A9AE007F38D4 = {
+			isa = PBXGroup;
+			children = (
+				ACFA470B16B0A9AF007F38D4 /* LBSensorAPIDemoIOS */,
+				ACFA470416B0A9AF007F38D4 /* Frameworks */,
+				ACFA470216B0A9AF007F38D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACFA470216B0A9AF007F38D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACFA470116B0A9AF007F38D4 /* LBSensorAPIDemoIOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACFA470416B0A9AF007F38D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC10CAD416D5B24200B74D2E /* CoreBluetooth.framework */,
+				ACFA470516B0A9AF007F38D4 /* UIKit.framework */,
+				ACFA470716B0A9AF007F38D4 /* Foundation.framework */,
+				ACFA470916B0A9AF007F38D4 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ACFA470B16B0A9AF007F38D4 /* LBSensorAPIDemoIOS */ = {
+			isa = PBXGroup;
+			children = (
+				ACFA471516B0A9AF007F38D4 /* AppDelegate.m */,
+				ACFA471416B0A9AF007F38D4 /* AppDelegate.h */,
+				AC6FB17816B0C8E700925D68 /* ViewControllers */,
+				AC10CAC516D55A2800B74D2E /* LBSensorAPI */,
+				AC6FB1B416B3268E00925D68 /* Source */,
+				AC6FB17A16B0C8FC00925D68 /* Images */,
+				ACFA470C16B0A9AF007F38D4 /* Supporting Files */,
+			);
+			path = LBSensorAPIDemoIOS;
+			sourceTree = "<group>";
+		};
+		ACFA470C16B0A9AF007F38D4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ACFA470D16B0A9AF007F38D4 /* LBSensorAPIDemoIOS-Info.plist */,
+				ACFA470E16B0A9AF007F38D4 /* InfoPlist.strings */,
+				ACFA471116B0A9AF007F38D4 /* main.m */,
+				ACFA471316B0A9AF007F38D4 /* LBSensorAPIDemoIOS-Prefix.pch */,
+				ACFA471716B0A9AF007F38D4 /* Default.png */,
+				ACFA471916B0A9AF007F38D4 /* Default@2x.png */,
+				ACFA471B16B0A9AF007F38D4 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACFA470016B0A9AF007F38D4 /* LBSensorAPIDemoIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACFA473316B0A9AF007F38D4 /* Build configuration list for PBXNativeTarget "LBSensorAPIDemoIOS" */;
+			buildPhases = (
+				ACFA46FD16B0A9AF007F38D4 /* Sources */,
+				ACFA46FE16B0A9AF007F38D4 /* Frameworks */,
+				ACFA46FF16B0A9AF007F38D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LBSensorAPIDemoIOS;
+			productName = LBSensorAPIDemoIOS;
+			productReference = ACFA470116B0A9AF007F38D4 /* LBSensorAPIDemoIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACFA46F816B0A9AE007F38D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Lumo BodyTech";
+			};
+			buildConfigurationList = ACFA46FB16B0A9AE007F38D4 /* Build configuration list for PBXProject "LBSensorAPIDemoIOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ACFA46F616B0A9AE007F38D4;
+			productRefGroup = ACFA470216B0A9AF007F38D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACFA470016B0A9AF007F38D4 /* LBSensorAPIDemoIOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACFA46FF16B0A9AF007F38D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACFA471016B0A9AF007F38D4 /* InfoPlist.strings in Resources */,
+				ACFA471816B0A9AF007F38D4 /* Default.png in Resources */,
+				ACFA471A16B0A9AF007F38D4 /* Default@2x.png in Resources */,
+				ACFA471C16B0A9AF007F38D4 /* Default-568h@2x.png in Resources */,
+				ACFA472116B0A9AF007F38D4 /* first.png in Resources */,
+				ACFA472316B0A9AF007F38D4 /* first@2x.png in Resources */,
+				ACFA472816B0A9AF007F38D4 /* second.png in Resources */,
+				ACFA472A16B0A9AF007F38D4 /* second@2x.png in Resources */,
+				ACFA472D16B0A9AF007F38D4 /* SensorsViewController.xib in Resources */,
+				ACFA473016B0A9AF007F38D4 /* MessagesViewController.xib in Resources */,
+				ACC5F3B916E7E32E00983C7B /* ZODiagnosticCatalog.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACFA46FD16B0A9AF007F38D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACFA471216B0A9AF007F38D4 /* main.m in Sources */,
+				ACFA471616B0A9AF007F38D4 /* AppDelegate.m in Sources */,
+				ACFA471F16B0A9AF007F38D4 /* SensorsViewController.m in Sources */,
+				ACFA472616B0A9AF007F38D4 /* MessagesViewController.m in Sources */,
+				AC32C21616DAE1E3002585E6 /* UIBAlertView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ACFA470E16B0A9AF007F38D4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACFA470F16B0A9AF007F38D4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ACFA472B16B0A9AF007F38D4 /* SensorsViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACFA472C16B0A9AF007F38D4 /* en */,
+			);
+			name = SensorsViewController.xib;
+			sourceTree = "<group>";
+		};
+		ACFA472E16B0A9AF007F38D4 /* MessagesViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACFA472F16B0A9AF007F38D4 /* en */,
+			);
+			name = MessagesViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACFA473116B0A9AF007F38D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ACFA473216B0A9AF007F38D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACFA473416B0A9AF007F38D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LBSensorAPIDemoIOS/LBSensorAPIDemoIOS-Prefix.pch";
+				INFOPLIST_FILE = "LBSensorAPIDemoIOS/LBSensorAPIDemoIOS-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/LBSensorAPIDemoIOS\"",
+					"\"$(SRCROOT)/../LBSensorAPIIOS/distribution\"",
+				);
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ACFA473516B0A9AF007F38D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LBSensorAPIDemoIOS/LBSensorAPIDemoIOS-Prefix.pch";
+				INFOPLIST_FILE = "LBSensorAPIDemoIOS/LBSensorAPIDemoIOS-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/LBSensorAPIDemoIOS\"",
+					"\"$(SRCROOT)/../LBSensorAPIIOS/distribution\"",
+				);
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACFA46FB16B0A9AE007F38D4 /* Build configuration list for PBXProject "LBSensorAPIDemoIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACFA473116B0A9AF007F38D4 /* Debug */,
+				ACFA473216B0A9AF007F38D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACFA473316B0A9AF007F38D4 /* Build configuration list for PBXNativeTarget "LBSensorAPIDemoIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACFA473416B0A9AF007F38D4 /* Debug */,
+				ACFA473516B0A9AF007F38D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACFA46F816B0A9AE007F38D4 /* Project object */;
+}
